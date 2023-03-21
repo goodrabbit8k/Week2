@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2202213587096162515}
   - component: {fileID: 7781735363429441212}
   - component: {fileID: 652412158409211356}
+  - component: {fileID: 8387670679047945283}
   m_Layer: 0
   m_Name: _BaseFruit
   m_TagString: Untagged
@@ -64,6 +65,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8387670679047945283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8722365835290867232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc7007d64124b449abe78c63a50c053, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wholeFruit: {fileID: 8943414199833245264}
+  slicedFruit: {fileID: 2086044486804017095}
 --- !u!1001 &1167126891666125462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -164,6 +179,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d9a8c81ddca4f2f4eb40598c95c1b369, type: 3}
   m_PrefabInstance: {fileID: 1167126891666125462}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2086044486804017095 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d9a8c81ddca4f2f4eb40598c95c1b369, type: 3}
+  m_PrefabInstance: {fileID: 1167126891666125462}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4086070433304472749 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6303116636865536453, guid: d9a8c81ddca4f2f4eb40598c95c1b369, type: 3}
@@ -262,5 +282,10 @@ PrefabInstance:
 --- !u!4 &8599257866598018282 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5cf31d67a6afd394e82ffb55e5d61eeb, type: 3}
+  m_PrefabInstance: {fileID: 8132386045732031233}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8943414199833245264 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5cf31d67a6afd394e82ffb55e5d61eeb, type: 3}
   m_PrefabInstance: {fileID: 8132386045732031233}
   m_PrefabAsset: {fileID: 0}
