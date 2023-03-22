@@ -87,6 +87,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8e50694855f8bc948a4d139463a681f5, type: 2}
+    - target: {fileID: 8387670679047945283, guid: 9c54e0da7f95104449a8161a871770a5, type: 3}
+      propertyPath: fruitPoint
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8722365835290867232, guid: 9c54e0da7f95104449a8161a871770a5, type: 3}
       propertyPath: m_Name
       value: Kiwi
@@ -103,5 +107,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9205656486629178889, guid: 9c54e0da7f95104449a8161a871770a5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 00e90ea53976cd247b7059f99d5fdc9f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c54e0da7f95104449a8161a871770a5, type: 3}

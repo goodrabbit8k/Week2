@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
+    public GameObject bombPrefabs;
+
+    [Range(0f, 1f)]  public float bombSpawnChance = 0.05f;
+
     [SerializeField] GameObject[] fruitPrefabs;
 
     BoxCollider spawnPoint;
@@ -41,6 +45,11 @@ public class SpawnManager : MonoBehaviour
             Vector3 position = GenerateRandomSpawnPosition();
             Quaternion rotation = GenerateRandomSpawnRotation();
             float force = GenerateRandomForce();
+
+            if (Random.value < bombSpawnChance)
+            {
+                prefab = bombPrefabs;
+            }
 
             GameObject fruit = Instantiate(prefab, position, rotation);
 

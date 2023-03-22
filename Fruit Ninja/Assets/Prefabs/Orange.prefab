@@ -91,6 +91,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f632f4e07ddd5a743b8bcff01bb45cb7, type: 2}
+    - target: {fileID: 8387670679047945283, guid: 9c54e0da7f95104449a8161a871770a5, type: 3}
+      propertyPath: fruitPoint
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8722365835290867232, guid: 9c54e0da7f95104449a8161a871770a5, type: 3}
       propertyPath: m_Name
       value: Orange
@@ -107,5 +111,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9205656486629178889, guid: 9c54e0da7f95104449a8161a871770a5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ce6c38c4564c9f4b8beebe49a2cafbd, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c54e0da7f95104449a8161a871770a5, type: 3}
