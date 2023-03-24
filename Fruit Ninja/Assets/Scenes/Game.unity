@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bombPrefabs: {fileID: 5071589287340599160, guid: 76bd0e9ee47cb0f47b74ad778c82a2b5, type: 3}
-  bombSpawnChance: 0.05
+  bombSpawnChance: 0.1
   fruitPrefabs:
   - {fileID: 4173251665457115768, guid: aad5ea1a9aebf0a46be90c189d9982ef, type: 3}
   - {fileID: 4173251665457115768, guid: 40804db7dc040214eb90a40b12378209, type: 3}
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -843,8 +843,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8f762657d68039478c45b4db67b30f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionImage: {fileID: 580194894}
   scoreText: {fileID: 895915393}
+  explosionImage: {fileID: 580194894}
 --- !u!4 &1821237073
 Transform:
   m_ObjectHideFlags: 0
