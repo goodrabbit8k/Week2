@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bombPrefabs: {fileID: 5071589287340599160, guid: 76bd0e9ee47cb0f47b74ad778c82a2b5, type: 3}
-  bombSpawnChance: 0.1
+  bombSpawnChance: 0.2
   fruitPrefabs:
   - {fileID: 4173251665457115768, guid: aad5ea1a9aebf0a46be90c189d9982ef, type: 3}
   - {fileID: 4173251665457115768, guid: 40804db7dc040214eb90a40b12378209, type: 3}
