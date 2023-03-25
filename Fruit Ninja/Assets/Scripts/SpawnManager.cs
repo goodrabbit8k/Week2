@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/* Keterangan : Saya menggunakan fungsi Range untuk mengatur spawn change pada bomb. Dengan ini saya bisa menentukan kemungkinan spawn
+                yang pas pada gameplay
+*/
+
 public class SpawnManager : MonoBehaviour
 {
     public GameObject bombPrefabs;
